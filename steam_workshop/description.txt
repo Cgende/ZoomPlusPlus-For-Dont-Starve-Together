@@ -1,0 +1,29 @@
+[h1] [b]Configure the camera how you like it! [/b] [/h1]
+
+This mod allows you to extend the zoom range of the camera. It also provides additional customization options those who want to really customize their camera:
+	
+[h1]Zoom[/h1]
+[list]
+[*][b]Min Camera Distance[/b] - How far the camera can zoom in.
+[*][b]Max Camera Distance[/b] - How far the camera can zoom out.
+[*][b]Zoom Step[/b] - How fast the camera zooms.
+[/list]
+
+[h1]Angle[/h1]	
+[list]
+[*][b]Min Distance Pitch[/b] - The angle of the camera when zoomed all the way in.
+[*][b]Max Distance Pitch[/b] - The angle of the camera when zoomed all the way out.
+[/list]
+
+[h1]Extras[/h1]
+[list]
+[*][b]Clouds[/b] - Enable or disable the clouds that appear when zoomed all the way out.
+[*][b]Knobbly Tree Leaves[/b] - Enable or disable the Knobbly tree leaves overlay
+[*][b]FOV (EXPERIMENTAL)[/b] - The field of view of the camera
+[/list]
+
+
+This mod was inspired by coryinthedank's Zoom+ mod. If you want, you can check out his mod here:
+https://steamcommunity.com/sharedfiles/filedetails/?id=1781410139
+
+I wrote this mod to provide configuration options for the camera as well as to reduce how far down the Knobbly Tree leaves are on the screen.

@@ -1,4 +1,4 @@
-# ZoomPlusPlus-For_Dont-Starve-Together
+# ZoomPlusPlus-For-Dont-Starve-Together
 This is a mod for klei Entertainment's [Don't Starve Together](https://www.klei.com/games/dont-starve-together).
 You can find it on the Steam workshop [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2837642411&searchtext=)
 

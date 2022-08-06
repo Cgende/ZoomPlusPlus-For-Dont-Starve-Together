@@ -19,7 +19,15 @@ This mod allows you to extend the zoom range of the camera. It also provides add
 [list]
 [*][b]Clouds[/b] - Enable or disable the clouds that appear when zoomed all the way out.
 [*][b]Knobbly Tree Leaves[/b] - Enable or disable the Knobbly tree leaves overlay
-[*][b]FOV (EXPERIMENTAL)[/b] - The field of view of the camera
+[/list]
+
+[h1]Experimental[/h1]
+[list]
+[*][b]FOV[/b] - The field of view of the camera
+[*][b]+ FOV Keybind[/b] - Keybind to increase the FOV
+[*][b]- FOV Keybind [/b] - Keybind to decrease the FOV
+[*][b]+ Pitch Keybind[/b] - Keybind to increase the camera angle
+[*][b]- Pitch Keybind[/b] - Keybind to increase the camera angle
 [/list]
 
 

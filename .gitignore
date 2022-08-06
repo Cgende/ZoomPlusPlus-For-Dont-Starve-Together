@@ -1,5 +1,8 @@
 /shelf/
 /.idea/
+/.idea/
+/scripts/
 *.iws
 *.iml
 *.ipr
+/deploy.py

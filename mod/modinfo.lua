@@ -5,7 +5,7 @@
 name = "Zoom++"
 description = "Configure the camera how you like it!"
 author = "Conrad"
-version = "1.0.1"
+version = "1.1.0"
 all_clients_require_mod = false
 client_only_mod = true
 api_version = 10
@@ -392,9 +392,16 @@ configuration_options = {
         },
         default = "Enabled"
     },
+    {-- This creates a header within the configuration menu
+        name = "Experimental",
+        label = "Experimental",
+        hover = "Experimental Features",
+        options = { { description = "", data = false } },
+        default = false
+    },
     {
         name = "fov",
-        label = "FOV (EXPERIMENTAL)",
+        label = "FOV",
         hover = "Change the camera's field of view.\nIt's not recommended to change this.",
         options = {
             {
@@ -471,6 +478,246 @@ configuration_options = {
             },
         },
         default = 35;
+    },
+    {
+        name = "+ FOV Keybind",
+        label = "+ FOV Keybind",
+        hover = "Keybind to increase the FOV",
+        options = {
+            {
+                description = 'Disabled',
+                data = 'Disabled'
+            },
+            {
+                description = 'F1',
+                data = 'KEY_F1'
+            },
+            {
+                description = 'F2',
+                data = 'KEY_F2'
+            },
+            {
+                description = 'F3',
+                data = 'KEY_F3'
+            },
+            {
+                description = 'F4',
+                data = 'KEY_F4'
+            },
+            {
+                description = 'F5',
+                data = 'KEY_F5'
+            },
+            {
+                description = 'F6',
+                data = 'KEY_F6'
+            },
+            {
+                description = 'F7',
+                data = 'KEY_F7'
+            },
+            {
+                description = 'F8',
+                data = 'KEY_F8'
+            },
+            {
+                description = 'F9',
+                data = 'KEY_F9'
+            },
+            {
+                description = 'F10',
+                data = 'KEY_F10'
+            },
+            {
+                description = 'F11',
+                data = 'KEY_F11'
+            },
+            {
+                description = 'F12',
+                data = 'KEY_F12'
+            },
+        },
+        default = 'Disabled';
+    },
+    {
+        name = "- FOV Keybind",
+        label = "- FOV Keybind",
+        hover = "Keybind to decrease the FOV",
+        options = {
+            {
+                description = 'Disabled',
+                data = 'Disabled'
+            },
+            {
+                description = 'F1',
+                data = 'KEY_F1'
+            },
+            {
+                description = 'F2',
+                data = 'KEY_F2'
+            },
+            {
+                description = 'F3',
+                data = 'KEY_F3'
+            },
+            {
+                description = 'F4',
+                data = 'KEY_F4'
+            },
+            {
+                description = 'F5',
+                data = 'KEY_F5'
+            },
+            {
+                description = 'F6',
+                data = 'KEY_F6'
+            },
+            {
+                description = 'F7',
+                data = 'KEY_F7'
+            },
+            {
+                description = 'F8',
+                data = 'KEY_F8'
+            },
+            {
+                description = 'F9',
+                data = 'KEY_F9'
+            },
+            {
+                description = 'F10',
+                data = 'KEY_F10'
+            },
+            {
+                description = 'F11',
+                data = 'KEY_F11'
+            },
+            {
+                description = 'F12',
+                data = 'KEY_F12'
+            },
+        },
+        default = 'Disabled';
+    },
+    {
+        name = "+ Pitch Keybind",
+        label = "+ Pitch Keybind",
+        hover = "Keybind to increase the camera angle.\nEnabling a keybind will disable the camera's automatic angle adjustment",
+        options = {
+            {
+                description = 'Disabled',
+                data = 'Disabled'
+            },
+            {
+                description = 'F1',
+                data = 'KEY_F1'
+            },
+            {
+                description = 'F2',
+                data = 'KEY_F2'
+            },
+            {
+                description = 'F3',
+                data = 'KEY_F3'
+            },
+            {
+                description = 'F4',
+                data = 'KEY_F4'
+            },
+            {
+                description = 'F5',
+                data = 'KEY_F5'
+            },
+            {
+                description = 'F6',
+                data = 'KEY_F6'
+            },
+            {
+                description = 'F7',
+                data = 'KEY_F7'
+            },
+            {
+                description = 'F8',
+                data = 'KEY_F8'
+            },
+            {
+                description = 'F9',
+                data = 'KEY_F9'
+            },
+            {
+                description = 'F10',
+                data = 'KEY_F10'
+            },
+            {
+                description = 'F11',
+                data = 'KEY_F11'
+            },
+            {
+                description = 'F12',
+                data = 'KEY_F12'
+            },
+        },
+        default = 'Disabled';
+    },
+    {
+        name = "- Pitch Keybind",
+        label = "- Pitch Keybind",
+        hover = "Keybind to increase the camera angle.\nEnabling a keybind will disable the camera's automatic angle adjustment",
+        options = {
+            {
+                description = 'Disabled',
+                data = 'Disabled'
+            },
+            {
+                description = 'F1',
+                data = 'KEY_F1'
+            },
+            {
+                description = 'F2',
+                data = 'KEY_F2'
+            },
+            {
+                description = 'F3',
+                data = 'KEY_F3'
+            },
+            {
+                description = 'F4',
+                data = 'KEY_F4'
+            },
+            {
+                description = 'F5',
+                data = 'KEY_F5'
+            },
+            {
+                description = 'F6',
+                data = 'KEY_F6'
+            },
+            {
+                description = 'F7',
+                data = 'KEY_F7'
+            },
+            {
+                description = 'F8',
+                data = 'KEY_F8'
+            },
+            {
+                description = 'F9',
+                data = 'KEY_F9'
+            },
+            {
+                description = 'F10',
+                data = 'KEY_F10'
+            },
+            {
+                description = 'F11',
+                data = 'KEY_F11'
+            },
+            {
+                description = 'F12',
+                data = 'KEY_F12'
+            },
+        },
+        default = 'Disabled';
     },
 }
 
